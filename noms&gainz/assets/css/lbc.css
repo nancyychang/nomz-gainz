@@ -1,0 +1,111 @@
+body {
+  margin: 0px;
+  background-color: #FA8D8D;
+}
+
+.cd-bkgd {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 1000px;
+  background-color: #FEE9E9;
+  border-radius: 20px;
+  /* opacity: 0.7; */
+}
+
+/* .title-img {
+  position: absolute;
+} */
+
+.title-img img {
+  position: relative;
+  margin: 45px;
+  /* margin-top: 45px;
+  margin-right: 25px; */
+  height: 500px;
+  width: 250px;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.title-img .text {
+  z-index: 3;
+  /* position: absolute; */
+  position: absolute;
+  top: 41.7%;
+  left: 12.5%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 5px;
+  color: white;
+  font-family: "American Typewriter";
+  font-size: 18px;
+  border-radius: 20px;
+  /* text-align: center; */
+  background-color: black;
+  margin: 45px;
+  height: 500px;
+  width: 250px;
+  opacity: 0.7;
+}
+
+.divider {
+  height: 525px;
+  width: 25px;
+  border-radius: 20px;
+  background-color: #9BBCFC;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.recipe {
+  position: sticky;
+  overflow: scroll;
+}
+
+.back {
+  letter-spacing: 5px;
+  color: white;
+  background-color: #9BBCFC;
+  height: 35px;
+  width: 100px;
+  font-family: "American Typewriter";
+  font-size: 12px;
+  /* align-content: flex-end; */
+  /* align-self: flex-end; */
+  /* margin-left: 45px; */
+  margin-top: 25px;
+  margin-left: 500px;
+  border-radius: 20px;
+}
+
+.back:hover {
+  background-color: #CBDCFD;
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+}
+
+.ingredients, .steps {
+  letter-spacing: 5px;
+  color: white;
+  font-family: "American Typewriter";
+  font-size: 18px;
+  margin-left: 45px;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  text-shadow: 2px 0 0 #C4BABA, -2px 0 0 #C4BABA, 0 2px 0 #C4BABA, 0 -2px 0 #C4BABA, 1px 1px #C4BABA, -1px -1px 0 #C4BABA, 1px -1px 0 #C4BABA, -1px 1px 0 #C4BABA;
+
+}
+
+.list {
+  color: #333;
+  font-family: "American Typewriter";
+  font-size: 16px;
+  margin-left: 45px;
+  margin-right: 60px;
+  line-height: 1.5;
+}
